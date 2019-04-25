@@ -19,7 +19,7 @@ _Program which takes several word inputs from the user and compares them to chec
 | ------------- |:-------------:| -----:|
 | Program takes and stores word input from user (userInput) | beard | beard |
 | Program then takes one or more word inputs from user (checkAgainst) | bread | bread |
-| Program compares userInput and checkAgainst for anagrams | "bread is an anagram of beard" |
+| Program compares userInput and checkAgainst for anagrams | beard / bread | "bread is an anagram of beard" |
 
 ## Known Bugs
 
