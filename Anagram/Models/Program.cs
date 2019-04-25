@@ -8,12 +8,12 @@ namespace Anagram.Models
 
      public static void Main()
      {
-        Console.WriteLine("Enter a word to check for anagrams of: ");
+        Console.WriteLine("Enter a word: ");
         string checkAgainst = Console.ReadLine();
 
         bool addMore = true;
         while(addMore == true){
-          Console.WriteLine("Enter a word to see if it is an anagram of " + checkAgainst + ":");
+          Console.WriteLine("Enter another word to see if it is an anagram of " + checkAgainst + ":");
           Word toCheck = new Word(Console.ReadLine());
           Console.WriteLine("Add more words? (Y/N)");
           string userInput = Console.ReadLine().ToUpper();
